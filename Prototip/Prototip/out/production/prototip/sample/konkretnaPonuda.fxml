@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.konkretnaPonudaController">
+   <children>
+      <Button layoutX="494.0" layoutY="433.0" mnemonicParsing="false" onAction="#dodaj" text="Dodaj" />
+      <Label fx:id="idPonude" layoutX="300.0" layoutY="17.0">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="informacije" layoutX="27.0" layoutY="17.0">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="70.0" prefHeight="15.0" prefWidth="175.0" text="Pravljeno za porudzbinu:" />
+      <Label layoutX="27.0" layoutY="99.0" prefHeight="15.0" prefWidth="108.0" text="Datum ponude:" />
+      <Label layoutX="27.0" layoutY="131.0" prefHeight="15.0" prefWidth="108.0" text="Broj isporuka:" />
+      <Label layoutX="27.0" layoutY="160.0" prefHeight="15.0" prefWidth="108.0" text="Nacin isporuke:" />
+      <Label layoutX="27.0" layoutY="193.0" text="Rok placanja:" />
+      <Label layoutX="27.0" layoutY="227.0" text="Cena: " />
+      <Label layoutX="184.0" layoutY="227.0" text="Popust:" />
+      <Label layoutX="342.0" layoutY="227.0" text="Prodajna cena:" />
+      <TextField fx:id="idPN" layoutX="210.0" layoutY="65.0" />
+      <TextField fx:id="DatumPonude" layoutX="210.0" layoutY="94.0" />
+      <TextField fx:id="Kontinuitet_broj_isporuka" layoutX="210.0" layoutY="126.0" />
+      <TextField fx:id="Nacin_isporuke" layoutX="210.0" layoutY="155.0" />
+      <TextField fx:id="Rok_placanja" layoutX="210.0" layoutY="188.0" />
+      <TextField fx:id="Cena" layoutX="71.0" layoutY="222.0" prefHeight="25.0" prefWidth="108.0" />
+      <TextField fx:id="Prodajna_cena" layoutX="440.0" layoutY="222.0" prefHeight="25.0" prefWidth="108.0" />
+      <TextField fx:id="Popust" layoutX="233.0" layoutY="222.0" prefHeight="25.0" prefWidth="108.0" />
+      <TableView fx:id="tableStavke" layoutX="141.0" layoutY="333.0" prefHeight="200.0" prefWidth="318.0">
+        <columns>
+          <TableColumn fx:id="kol1" prefWidth="67.0" text="idDok" />
+          <TableColumn fx:id="kol2" prefWidth="94.0" text="idProizvoda" />
+            <TableColumn fx:id="kol3" prefWidth="75.0" text="Kolicina" />
+            <TableColumn fx:id="kol4" prefWidth="75.0" text="Cena" />
+        </columns>
+      </TableView>
+      <Button layoutX="494.0" layoutY="502.0" mnemonicParsing="false" onAction="#delete" text="Obrisi" />
+      <TextField fx:id="deleteStavkaId" layoutX="494.0" layoutY="333.0" prefHeight="25.0" prefWidth="56.0" />
+      <TextField fx:id="idProizvoda" layoutX="494.0" layoutY="367.0" prefHeight="25.0" prefWidth="56.0" />
+      <Button fx:id="update" layoutX="256.0" layoutY="280.0" mnemonicParsing="false" onAction="#updatePonuda" text="Izmeni" />
+      <TextField fx:id="Kolicina" layoutX="494.0" layoutY="401.0" prefHeight="25.0" prefWidth="56.0" />
+   </children>
+</AnchorPane>

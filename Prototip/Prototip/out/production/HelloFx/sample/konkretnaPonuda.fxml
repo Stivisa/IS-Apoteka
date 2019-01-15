@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="326.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.konkretnaPonudaController">
+   <children>
+      <Button fx:id="update" layoutX="264.0" layoutY="290.0" mnemonicParsing="false" onAction="#updatePonuda" text="Izmeni" />
+      <Label fx:id="idPonude" layoutX="300.0" layoutY="17.0" text="Label">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label layoutX="27.0" layoutY="17.0" text="Informacije o ponudi sa id:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="27.0" layoutY="70.0" prefHeight="15.0" prefWidth="175.0" text="Pravljeno za porudzbinu:" />
+      <Label layoutX="27.0" layoutY="99.0" prefHeight="15.0" prefWidth="108.0" text="Datum ponude:" />
+      <Label layoutX="27.0" layoutY="131.0" prefHeight="15.0" prefWidth="108.0" text="Broj isporuka:" />
+      <Label layoutX="27.0" layoutY="160.0" prefHeight="15.0" prefWidth="108.0" text="Nacin isporuke:" />
+      <Label layoutX="27.0" layoutY="193.0" text="Rok placanja:" />
+      <Label layoutX="27.0" layoutY="227.0" text="Cena: " />
+      <Label layoutX="184.0" layoutY="227.0" text="Popust:" />
+      <Label layoutX="342.0" layoutY="227.0" text="Prodajna cena:" />
+      <TextField fx:id="idPN" layoutX="210.0" layoutY="65.0" />
+      <TextField fx:id="DatumPonude" layoutX="210.0" layoutY="94.0" />
+      <TextField fx:id="Kontinuitet_broj_isporuka" layoutX="210.0" layoutY="126.0" />
+      <TextField fx:id="Nacin_isporuke" layoutX="210.0" layoutY="155.0" />
+      <TextField fx:id="Rok_placanja" layoutX="210.0" layoutY="188.0" />
+      <TextField fx:id="Cena" layoutX="71.0" layoutY="222.0" prefHeight="25.0" prefWidth="108.0" />
+      <TextField fx:id="Prodajna_cena" layoutX="440.0" layoutY="222.0" prefHeight="25.0" prefWidth="108.0" />
+      <TextField fx:id="Popust" layoutX="233.0" layoutY="222.0" prefHeight="25.0" prefWidth="108.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.startController">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="313.0" minWidth="10.0" prefWidth="305.0" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="464.0" minWidth="10.0" prefWidth="295.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="464.0" minWidth="10.0" prefWidth="295.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Button fx:id="ponuda" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="PORUDZBINE &#10;&#9; I&#10;NARUDZBINE" textOverrun="WORD_ELLIPSIS" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja1" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="PONUDE" textOverrun="WORD_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja2" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="OTPREMNICE&#10;         I&#10; PRIJEMNICE" textOverrun="WORD_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja3" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="PROIZVODI" textOverrun="WORD_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja4" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="FAKTURE" textOverrun="WORD_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja5" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="KUPCI I DOBAVLJACI" textOverrun="WORD_ELLIPSIS" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja6" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="ZAPOSLENI" textOverrun="WORD_ELLIPSIS" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja7" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="PRODAJA" textOverrun="WORD_ELLIPSIS" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+      <Button fx:id="prodaja8" alignment="CENTER" contentDisplay="CENTER" depthTest="ENABLE" mnemonicParsing="false" onAction="#ponuda" prefHeight="100.0" prefWidth="150.0" text="PRODAJA" textOverrun="WORD_ELLIPSIS" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+         <opaqueInsets>
+            <Insets left="200.0" />
+         </opaqueInsets>
+      </Button>
+   </children>
+   <opaqueInsets>
+      <Insets left="20.0" />
+   </opaqueInsets>
+</GridPane>
